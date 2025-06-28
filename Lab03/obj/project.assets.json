@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/MP/Lab03/Lab03.csproj",
+      "projectUniqueName": "/Users/MP/baitapc-/Lab03/Lab03.csproj",
       "projectName": "Lab03",
-      "projectPath": "/Users/MP/Lab03/Lab03.csproj",
+      "projectPath": "/Users/MP/baitapc-/Lab03/Lab03.csproj",
       "packagesPath": "/Users/MP/.nuget/packages/",
-      "outputPath": "/Users/MP/Lab03/obj/",
+      "outputPath": "/Users/MP/baitapc-/Lab03/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/MP/.nuget/NuGet/NuGet.Config"

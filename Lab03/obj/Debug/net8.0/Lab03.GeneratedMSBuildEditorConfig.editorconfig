@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/MP/baitapc-/Lab03
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/MP/baitapc-/Lab03/Views/FileUpload/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmlsZVVwbG9hZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab03/Views/FileUpload/ListFiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmlsZVVwbG9hZC9MaXN0RmlsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/MP/baitapc-/Lab03/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/MP/baitapc-/Lab03/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab03/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/MP/baitapc-/Lab03/Views/_ViewImports.cshtml]
