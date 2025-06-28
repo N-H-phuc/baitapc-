@@ -1,0 +1,14 @@
+@model MyMvcApp.Models.Product
+
+<h2>Xác nhận xóa</h2>
+
+<h4>Bạn có chắc muốn xóa sản phẩm sau không?</h4>
+<div>
+    <strong>@Model.Name</strong> - Giá: @Model.Price
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="ID" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>
