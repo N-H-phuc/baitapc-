@@ -1,0 +1,113 @@
+@model Lab04.Models.StudentInfo
+
+@{
+    ViewData["Title"] = "Đăng ký thành viên";
+}
+
+<h2>ĐĂNG KÝ THÀNH VIÊN</h2>
+
+@if (ViewBag.Success != null)
+{
+    <div class="alert alert-success font-weight-bold">@ViewBag.Success</div>
+}
+@if (ViewBag.FileName != null)
+{
+    <div class="alert alert-info">Bạn đã upload: <strong>@ViewBag.FileName</strong></div>
+}
+
+<form asp-action="Register" method="post" enctype="multipart/form-data">
+    <div>
+        <label asp-for="MaSV"></label>
+        <input asp-for="MaSV" class="form-control" />
+        <span asp-validation-for="MaSV" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="HoTen"></label>
+        <input asp-for="HoTen" class="form-control" />
+        <span asp-validation-for="HoTen" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="NgaySinh"></label>
+        <input asp-for="NgaySinh" type="date" class="form-control" />
+        <span asp-validation-for="NgaySinh" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="XacNhanEmail"></label>
+        <input asp-for="XacNhanEmail" class="form-control" />
+        <span asp-validation-for="XacNhanEmail" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="CreditCard"></label>
+        <input asp-for="CreditCard" class="form-control" />
+        <span asp-validation-for="CreditCard" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Hinh"></label>
+        <input asp-for="Hinh" type="file" accept=".jpg,.jpeg,.png,.gif" onchange="previewImage(this)" class="form-control" />
+        <span asp-validation-for="Hinh" class="text-danger"></span>
+        <div>
+            <img id="imgPreview" src="#" alt="preview" style="display:none; max-width: 200px; margin-top: 10px;" />
+        </div>
+    </div>
+
+    <div>
+        <label asp-for="Diem"></label>
+        <input asp-for="Diem" class="form-control" />
+        <span asp-validation-for="Diem" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="HeSo"></label>
+        <input asp-for="HeSo" class="form-control" />
+        <span asp-validation-for="HeSo" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="MaBaoMat"></label>
+        <input asp-for="MaBaoMat" class="form-control" />
+        <span style="margin-left:10px; font-weight:bold;">@ViewBag.Code</span>
+        <span asp-validation-for="MaBaoMat" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="GhiChu"></label>
+        <textarea asp-for="GhiChu" class="form-control"></textarea>
+        <span asp-validation-for="GhiChu" class="text-danger"></span>
+    </div>
+
+    <div style="margin-top:10px;">
+        <button type="submit" class="btn btn-primary">Đăng ký</button>
+        <button type="reset" class="btn btn-secondary">Nhập lại</button>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function previewImage(input) {
+            var preview = document.getElementById('imgPreview');
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                }
+                reader.readAsDataURL(input.files[0]);
+            } else {
+                preview.style.display = 'none';
+                preview.src = '#';
+            }
+        }
+    </script>
+}

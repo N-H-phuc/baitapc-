@@ -1,0 +1,52 @@
+@model Lab04.Models.Employee
+
+@{
+    ViewData["Title"] = "Tạo nhân viên";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (ViewBag.Success != null)
+{
+    <div class="alert alert-success">@ViewBag.Success</div>
+}
+
+<form asp-controller="Employee" asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="EmployeeNo"></label>
+        <input asp-for="EmployeeNo" class="form-control" />
+        <span asp-validation-for="EmployeeNo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName" class="form-control" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ConfirmEmail"></label>
+        <input asp-for="ConfirmEmail" class="form-control" />
+        <span asp-validation-for="ConfirmEmail" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BirthDate"></label>
+        <input asp-for="BirthDate" class="form-control" />
+        <span asp-validation-for="BirthDate" class="text-danger"></span>
+    </div>
+
+    <!-- Bạn có thể thêm các trường còn lại tương tự -->
+
+    <button type="submit" class="btn btn-primary">Tạo</button>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
