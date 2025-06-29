@@ -1,3 +1,4 @@
+// Models/EmployeeInfo.cs
 namespace Lab04.Models
 {
     public class EmployeeInfo

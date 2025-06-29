@@ -42,12 +42,11 @@ namespace Lab04.Controllers
             return View(emp);
         }
 
-     [HttpGet("jQueryValidate")]
+        [HttpGet("jQueryValidate")]
 public IActionResult jQueryValidate()
 {
     return View(new EmployeeInfo());
 }
 
-    
     }
 }
