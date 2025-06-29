@@ -18,6 +18,86 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/MP/baitapc-/Lab04
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/MP/baitapc-/Lab04/Lab03/Views/FileUpload/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFiMDMvVmlld3MvRmlsZVVwbG9hZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/Lab03/Views/FileUpload/ListFiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFiMDMvVmlld3MvRmlsZVVwbG9hZC9MaXN0RmlsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/Lab03/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFiMDMvVmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/Lab03/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFiMDMvVmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/Lab03/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFiMDMvVmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/Lab03/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFiMDMvVmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/Lab03/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFiMDMvVmlld3MvU3R1ZGVudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/Lab03/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFiMDMvVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/Lab03/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFiMDMvVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/MyMvcApp/Views/Calculator/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TXlNdmNBcHAvVmlld3MvQ2FsY3VsYXRvci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/MyMvcApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TXlNdmNBcHAvVmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/MyMvcApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TXlNdmNBcHAvVmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/MyMvcApp/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TXlNdmNBcHAvVmlld3MvUHJvZHVjdC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/MyMvcApp/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TXlNdmNBcHAvVmlld3MvUHJvZHVjdC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/MyMvcApp/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TXlNdmNBcHAvVmlld3MvUHJvZHVjdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/MyMvcApp/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TXlNdmNBcHAvVmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/MyMvcApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TXlNdmNBcHAvVmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/MyMvcApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TXlNdmNBcHAvVmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/MyMvcApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TXlNdmNBcHAvVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/MyMvcApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TXlNdmNBcHAvVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/MP/baitapc-/Lab04/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWUvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -53,6 +133,14 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/MP/baitapc-/Lab04/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MP/baitapc-/Lab04/Lab03/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFiMDMvVmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7khlvsyck4
+
+[/Users/MP/baitapc-/Lab04/MyMvcApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TXlNdmNBcHAvVmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mva14ewt85
 
 [/Users/MP/baitapc-/Lab04/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s

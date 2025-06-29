@@ -1,0 +1,40 @@
+@model Lab03.Models.FilesViewModel
+
+@{
+    ViewData["Title"] = "Danh sách file đã upload";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-4">Danh sách file đã upload</h2>
+
+@if (Model?.Files == null || !Model.Files.Any())
+{
+    <div class="alert alert-info">
+        Không có file nào trong thư mục <strong>UploadFiles</strong>.
+    </div>
+}
+else
+{
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Tên file</th>
+                <th>Đường dẫn</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var file in Model.Files)
+            {
+                <tr>
+                    <td>@file.Name</td>
+                    <td><code>@file.Path</code></td>
+                    <td>
+                        <a href="@file.Path" class="btn btn-sm btn-primary" target="_blank">Xem</a>
+                        <a href="@file.Path" class="btn btn-sm btn-secondary" download>Tải về</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
